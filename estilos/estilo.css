@@ -39,8 +39,9 @@ label {
     margin-top:9px;
 }
 
+
 main {
-    
+    margin-top:30px;
     width:100vw;
     height:100vw;
     
@@ -49,7 +50,7 @@ main {
 
 section#login {
     position:absolute;
-    top:50%;
+    top:40%;
     left:50%;
     transform:translate(-50%,-50%);
     background-color:#fff;
@@ -66,7 +67,7 @@ section#login > div#imagem {
     height:200px;
     background-size:cover;
     background-repeat:no-repeat;
-    background-position:center bottom;
+    background-position:center center;
     display:block;
     
 }
