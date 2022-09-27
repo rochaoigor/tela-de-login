@@ -31,17 +31,17 @@ div#formulario p {
     font-family:var(--fonte02);
     font-size:0.8em;
     padding:3px;
-    margin-bottom:2px;
+    padding-bottom:2px;
     
 }
 label {
     font-weight:bold;
-    margin-top:9px;
+    padding-top:9px;
 }
 
 
 main {
-    margin-top:30px;
+    padding-top:30px;
     width:100vw;
     height:100vw;
     
@@ -80,8 +80,8 @@ section#login > div#formulario {
 input {
     box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.647);
     padding:7px;
-    margin-top:5px;
-    margin-bottom:10px;
+    padding-top:5px;
+    padding-bottom:10px;
     width:100%;
     border-radius:8px;
     display:block;
@@ -111,6 +111,6 @@ button#botaoConfirm {
     border-radius:5px;
     width:100%;
     font-weight:bold;
-    margin-bottom:5px;
+    padding-bottom:5px;
 
 }
