@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root {
+    --cor01:#7181F7;
+    --cor02:#4EFD8E;
+    --fonte: 'Montserrat', sans-serif;
+    --fonte02:  'Open Sans', sans-serif;
+}
+
+body,html {
+    background-color:var(--cor01);
+    width:100vw;
+    height:100vw;
+}
+
+div#formulario h1 {
+    font-family:var(--fonte);
+    text-align:center;
+    
+}
+
+div#formulario p {
+    font-family:var(--fonte02);
+    font-size:0.8em;
+    padding:3px;
+    margin-bottom:2px;
+    
+}
+label {
+    font-weight:bold;
+    margin-top:9px;
+}
+
+main {
+    
+    width:100vw;
+    height:100vw;
+    
+    position:relative;
+}
+
+section#login {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:#fff;
+    width:250px;
+    height:500px;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.685);
+
+}
+
+section#login > div#imagem {
+    background:#7181F7 url('../img/img01.jpg');
+    height:200px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    display:block;
+    
+}
+
+section#login > div#formulario {
+    padding:10px;
+    display:block;
+}
+
+input {
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.647);
+    padding:7px;
+    margin-top:5px;
+    margin-bottom:10px;
+    width:100%;
+    border-radius:8px;
+    display:block;
+}
+.material-symbols-outlined{
+    float:left;
+}
+button {
+    background-color:#4efd8ebd;
+    font-family:var(--fonte02);
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.611);
+    text-align:center;
+}
+
+button#botaoSenha {
+    display:block;
+    
+    padding:4px;
+    border-radius:5px;
+    font-weight:bold;
+    width:100%;
+
+}
+
+button#botaoConfirm {
+    padding:4px;
+    border-radius:5px;
+    width:100%;
+    font-weight:bold;
+    margin-bottom:5px;
+
+}

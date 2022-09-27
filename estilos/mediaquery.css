@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:800px) and (max-width:992px) {
+body {
+    background-image:linear-gradient(to left, #7181F7, #46E3CF);
+}
+    section#login {
+        width:90vw;
+    }
+    section#login > div#imagem {
+        float: left;
+        width:30%;
+        height:100%;
+    }
+    section#login > div#formulario {
+        float:right;
+        width:70%;
+    }
+
+    div#formulario p {
+        font-size:1.4em;
+        margin-bottom:8.5px;
+    }
+    div#formulario h1 {
+        text-align:left;
+    }
+    input {
+        margin-top:13px;
+        padding:20px;
+        font-size:16px;
+    }
+    button#botaoSenha {
+        margin-top:30px;
+        padding:10px;
+        cursor:pointer;
+    }
+    button#botaoConfirm {
+        margin-top:30px;
+        padding:10px;
+        cursor:pointer;
+        
+    }
+    button#botaoConfirm:hover {
+        background-color:#7181F7;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body {
+        background-image:linear-gradient(to right, #7181F7, #46E3CF);
+    }
+    section#login {
+        width:940px;
+    }
+
+    section#login > div#imagem {
+        float:left;
+        width:50%;
+        height:100%;
+
+    }
+
+    section#login > div#formulario {
+        float:right;
+        width:50%;
+
+    }
+    div#formulario > p {
+        font-size:1.4em;
+        margin-bottom:10px;
+    }
+    div#formulario > h1 {
+        text-align:left;
+        letter-spacing:0.5px;
+    }
+    input {
+        margin-top:20px;
+        padding:20px;
+        font-size:16px;
+        
+    }
+   
+    button#botaoSenha {
+        margin-top:30px;
+        padding:10px;
+        cursor:pointer;
+        border:none;
+        
+    }
+    button#botaoSenha:hover {
+        background-color:#7181F7;
+        color:white;
+        border:none;
+    }
+    button#botaoConfirm {
+        margin-top:30px;
+        padding:10px;
+        cursor:pointer;
+        border:none;
+        
+    }
+     button#botaoConfirm:hover {
+        background-color:#7181F7;
+        color:white;
+       border:none;
+        
+    }   
+}
