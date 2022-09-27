@@ -48,10 +48,11 @@ body {
 
 @media screen and (min-width:992px) {
     body {
-        background-image:linear-gradient(to right, #7181F7, #46E3CF);
+        background-image:linear-gradient(to bottom, #7181F7, #46E3CF);
+        
     }
     section#login {
-        width:940px;
+        width:950px;
     }
 
     section#login > div#imagem {
