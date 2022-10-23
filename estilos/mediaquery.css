@@ -54,7 +54,7 @@ main {
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px){
     body {
         background-image:linear-gradient(to bottom, #7181F7, #46E3CF);
         
@@ -62,18 +62,20 @@ main {
     section#login {
         width:950px;
         justify-content:center;
+        padding:none;
     }
 
     section#login > div#imagem {
         float:left;
         width:50%;
-        height:100%;
+        height:102%;
         border-radius:none;
-
+        
     }
 
     section#login > div#formulario {
         float:right;
+        padding:20px;
         width:50%;
     }
     div#formulario > p {
