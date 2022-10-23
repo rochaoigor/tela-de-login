@@ -96,6 +96,7 @@ main {
         padding:10px;
         cursor:pointer;
         border:none;
+        box-shadow:5px 3px #00000091;
     }
 
     button#botaoSenha:hover {
@@ -107,6 +108,8 @@ main {
         padding:10px;
         cursor:pointer;
         border:none;
+        box-shadow:5px 3px #00000091;
+        color:#fff;
         
     }
      button#botaoConfirm:hover {
