@@ -17,6 +17,7 @@ main {
         float: left;
         width:30%;
         height:100%;
+        border-radius:none;
     }
     section#login > div#formulario {
         float:right;
@@ -67,6 +68,7 @@ main {
         float:left;
         width:50%;
         height:100%;
+        border-radius:none;
 
     }
 
