@@ -9,7 +9,9 @@ main {
     max-width:992px;
 }
     section#login {
-        width:90vw; 
+        width:90vw;
+        padding:0px;
+        
     }
     section#login > div#imagem {
         float: left;
