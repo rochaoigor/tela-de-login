@@ -5,8 +5,11 @@
 body {
     background-image:linear-gradient(to left, #7181F7, #46E3CF);
 }
+main {
+    max-width:992px;
+}
     section#login {
-        width:90vw;
+        width:90vw; 
     }
     section#login > div#imagem {
         float: left;
@@ -20,29 +23,31 @@ body {
 
     div#formulario p {
         font-size:1.4em;
-        margin-bottom:8.5px;
+        
     }
     div#formulario h1 {
         text-align:left;
     }
     input {
-        margin-top:13px;
+        margin-bottom:10px;
         padding:20px;
         font-size:16px;
     }
     button#botaoSenha {
-        margin-top:30px;
+        margin:20px 0px;
         padding:10px;
         cursor:pointer;
+        border:none;
     }
     button#botaoConfirm {
-        margin-top:30px;
+        margin:15px 0px;
         padding:10px;
         cursor:pointer;
-        
+        border:none;
     }
-    button#botaoConfirm:hover {
+    button#botaoConfirm:hover,#botaoSenha:hover {
         background-color:#7181F7;
+        border:solid 2px #7181f7;
     }
 }
 
@@ -53,6 +58,7 @@ body {
     }
     section#login {
         width:950px;
+        justify-content:center;
     }
 
     section#login > div#imagem {
@@ -65,22 +71,18 @@ body {
     section#login > div#formulario {
         float:right;
         width:50%;
-
     }
     div#formulario > p {
         font-size:1.4em;
-        margin-bottom:10px;
+        padding:10px;
     }
     div#formulario > h1 {
         text-align:left;
         letter-spacing:0.5px;
     }
     input {
-        margin-top:20px;
-        padding:20px;
+        padding:15px;
         font-size:16px;
-        margin-bottom:10px;
-        
     }
    
     button#botaoSenha {
@@ -88,15 +90,14 @@ body {
         padding:10px;
         cursor:pointer;
         border:none;
-        
     }
+
     button#botaoSenha:hover {
         background-color:#7181F7;
         color:white;
         border:none;
     }
     button#botaoConfirm {
-        margin-top:30px;
         padding:10px;
         cursor:pointer;
         border:none;
@@ -105,7 +106,6 @@ body {
      button#botaoConfirm:hover {
         background-color:#7181F7;
         color:white;
-       border:none;
-        
+        border:none;
     }   
 }

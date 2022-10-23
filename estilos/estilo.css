@@ -17,8 +17,6 @@
 
 body,html {
     background-color:var(--cor01);
-    width:100vw;
-    
 }
 
 div#formulario h1 {
@@ -31,20 +29,16 @@ div#formulario p {
     font-family:var(--fonte02);
     font-size:0.8em;
     padding:3px;
-    margin-bottom:5px;
-    
+    padding:10px;
 }
 label {
     font-weight:bold;
-    margin-top:9px;
+    padding:5px;
 }
 
-
 main {
-   
-    width:90vw;
-    height:100vw;
-    
+    max-width:992px;
+    height:80vw;
     position:relative;
 }
 
@@ -56,7 +50,6 @@ section#login {
     background-color:#fff;
     width:250px;
     height:500px;
-    margin-top:90px;
     border-radius:15px;
     overflow:hidden;
     box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.685);
@@ -81,11 +74,10 @@ section#login > div#formulario {
 input {
     box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.647);
     padding:7px;
-    margin-top:5px;
-    margin-bottom:10px;
     width:100%;
     border-radius:8px;
     display:block;
+    margin-bottom:10px;
 }
 .material-symbols-outlined{
     float:left;
@@ -99,12 +91,10 @@ button {
 
 button#botaoSenha {
     display:block;
-    
     padding:4px;
     border-radius:5px;
     font-weight:bold;
     width:100%;
-
 }
 
 button#botaoConfirm {
@@ -112,6 +102,13 @@ button#botaoConfirm {
     border-radius:5px;
     width:100%;
     font-weight:bold;
-    margin-bottom:10px;
-
+    margin-bottom:7px;
+}
+footer {
+    background-color:black;
+    color:white;
+    text-align:center;
+    justify-content:center;
+    padding:25px;
+    font-family:var(--fonte02);
 }
