@@ -64,6 +64,7 @@ section#login > div#imagem {
     background-repeat:no-repeat;
     background-position:center center;
     display:block;
+    border-radius:10px 10px 0px 0px;;
     
 }
 
